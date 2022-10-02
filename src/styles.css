@@ -95,4 +95,41 @@
   margin: 35px 0 45px;
 }
 
+.menu {
+  background: black;
+}
+.menu__list {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__list .item {
+  background: #312F30;
+  color: white;
+  width: 260px;
+  height: 323px;
+  border-radius: 10px 10px 0 0;
+}
+.menu__list .item__foto {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.menu__list .item__description {
+  text-align: center;
+}
+.menu__list .item__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.menu__list .item__short-info {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  opacity: 0.7;
+}
+
 /*# sourceMappingURL=styles.css.map */
